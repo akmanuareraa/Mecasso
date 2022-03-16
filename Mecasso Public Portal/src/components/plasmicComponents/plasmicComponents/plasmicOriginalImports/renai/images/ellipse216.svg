@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 260 260">
+  <g filter="url(#CwpqkXFZAea)">
+    <circle cx="130" cy="130" r="130" fill="url(#CwpqkXFZAeb)"/>
+  </g>
+  <defs>
+    <linearGradient id="CwpqkXFZAeb" x1="-5" y1="117" x2="155" y2="115" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DEDBF9"/>
+      <stop offset="1" stop-color="#D2DEFD"/>
+    </linearGradient>
+    <filter id="CwpqkXFZAea" x="-10" y="-10" width="280" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="-10" dy="-10"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0.8875 0 0 0 0 0.915625 0 0 0 0 1 0 0 0 1 0"/>
+      <feBlend in2="shape" result="effect1_innerShadow_203_69"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="10" dy="10"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0.75026 0 0 0 0 0.791853 0 0 0 0 0.895833 0 0 0 1 0"/>
+      <feBlend in2="effect1_innerShadow_203_69" result="effect2_innerShadow_203_69"/>
+    </filter>
+  </defs>
+</svg>

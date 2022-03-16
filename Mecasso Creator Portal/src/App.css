@@ -1,0 +1,326 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+@font-face {
+  font-family: Gelion;
+  src: url('./Gelion Medium.woff');
+}
+
+@font-face {
+  font-family: GelionSemi;
+  src: url('./Gelion SemiBold.woff');
+}
+
+.bg-img { 
+  
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: black;
+}
+
+.bg-box { 
+
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: black;
+}
+
+.bg-box.renaipanel { 
+
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #D7D7D7;
+  }
+
+.button.is-renai {
+  background-color: #172741;
+  border-color: transparent;
+  color: white; 
+  border-radius: 5px;
+   font-family: Gelion;}
+  .button.is-renai:hover, .button.is-renai.is-hovered {
+    background-color: #172741	;
+    border-color: transparent;
+    color: white; }
+  .button.is-renai:focus, .button.is-renai.is-focused {
+    border-color: transparent;
+    color: white; }
+    .button.is-renai:focus:not(:active), .button.is-renai.is-focused:not(:active) {
+      -webkit-box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
+              box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25); }
+  .button.is-renai:active, .button.is-renai.is-active {
+    background-color: black;
+    border-color: transparent;
+    color: white; }
+  .button.is-renai[disabled] {
+    background-color: 	#778899;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .button.is-renai.is-inverted {
+    background-color: white;
+    color: #0a0a0a; }
+    .button.is-renai.is-inverted:hover {
+      background-color: #f2f2f2; }
+    .button.is-renai.is-inverted[disabled] {
+      background-color: white;
+      border-color: transparent;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      color: #0a0a0a; }
+  .button.is-renai.is-loading:after {
+    border-color: transparent transparent white white !important; }
+  .button.is-renai.is-outlined {
+    background-color: transparent;
+    border-color: #0a0a0a;
+    color: #0a0a0a; }
+    .button.is-renai.is-outlined:hover, .button.is-renai.is-outlined:focus {
+      background-color: #0a0a0a;
+      border-color: #0a0a0a;
+      color: white; }
+    .button.is-renai.is-outlined.is-loading:after {
+      border-color: transparent transparent #0a0a0a #0a0a0a !important; }
+    .button.is-renai.is-outlined[disabled] {
+      background-color: transparent;
+      border-color: #0a0a0a;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      color: #0a0a0a; }
+  .button.is-renai.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: white;
+    color: white; }
+    .button.is-renai.is-inverted.is-outlined:hover, .button.is-renai.is-inverted.is-outlined:focus {
+      background-color: white;
+      color: #0a0a0a; }
+    .button.is-renai.is-inverted.is-outlined[disabled] {
+      background-color: transparent;
+      border-color: white;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      color: white; }
+
+
+      .button.is-renai-negative {
+        background-color: 	#8b0000;
+        border-color: transparent;
+        color: white; 
+        border-radius: 5px;
+        font-family: Gelion;}
+        
+         .title.is-renai-nav {
+          color: white;
+          font-size: 2rem;
+          font-weight: 600;
+          line-height: 1.125;
+          font-family: GelionSemi;}
+  	
+	     .title.is-renai-nav.is-1 {
+              font-size: 3rem; }
+            .title.is-renai-nav.is-2 {
+              font-size: 2.5rem; }
+            .title.is-renai-nav.is-3 {
+              font-size: 2rem; }
+            .title.is-renai-nav.is-4 {
+              font-size: 1.5rem; }
+            .title.is-renai-nav.is-5 {
+              font-size: 1.25rem; }
+            .title.is-renai-nav.is-6 {
+              font-size: 1rem; }
+            .title.is-renai-nav.is-7 {
+              font-size: 0.75rem; }		  
+      
+        .title.is-renai-invert {
+          color: white;
+          font-size: 2rem;
+          font-weight: 600;
+          line-height: 1.125; 
+          font-family: Gelion;}
+
+            .title.is-renai-invert.is-1 {
+              font-size: 3rem; }
+            .title.is-renai-invert.is-2 {
+              font-size: 2.5rem; }
+            .title.is-renai-invert.is-3 {
+              font-size: 2rem; }
+            .title.is-renai-invert.is-4 {
+              font-size: 1.5rem; }
+            .title.is-renai-invert.is-5 {
+              font-size: 1.25rem; }
+            .title.is-renai-invert.is-6 {
+              font-size: 1rem; }
+            .title.is-renai-invert.is-7 {
+              font-size: 0.75rem; }
+          
+              .mmoverlay {
+                position: fixed; /* Sit on top of the page content */
+                display: block; /* Hidden by default */
+                width: 20%; /* Full width (cover the whole page) */
+                height: 20%; /* Full height (cover the whole page) */
+                transform:  rotate(-60deg);
+                top: 120px;
+                bottom: 100px;
+                right: 150px;
+                font-family: Gelion;
+                background-image: url('./img/arrow.png'); 
+                background-size: 100% 100%;
+                background-color: transparent;
+                z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+                cursor: pointer; /* Add a pointer on hover */
+              }
+
+              .image.is-social img {
+                border-radius: 5px;
+                padding: 5px;
+               }
+
+               .image.is-social.is-active img {
+                border: 5px solid grey;
+               }
+
+               .image.is-social.is-verified img {
+                border: 10px solid green;
+               }
+
+               .image.is-social.is-icon img {
+               
+                height: 40px;
+                width:  80px;
+                
+               }
+
+               .image.is-round img {
+			
+                border-radius: 50000px;
+                background-color: transparent;
+              }   
+
+              .is-socialTag{
+                height: 22px;
+                font-family: Gelion;
+                
+              }
+
+            
+              .is-socialTag.is-socialMem {
+                border-radius: 15px;
+                background-color: #d4b801;
+                text-decoration-color: #0a0a0a; 
+                font-weight: bold;
+                width: 120px;
+                display: flex;
+               justify-content: center;
+              } 
+
+              .is-socialTag.is-socialMemBlack {
+                border-radius: 15px;
+                background-color: black;
+                color: whitesmoke;
+                text-decoration-color: white; 
+                font-weight: bold;
+                width: 120px;
+                display: flex;
+               justify-content: center;
+              } 
+                              
+              .bg-box.renaiform { 
+
+                background-position: center center;
+                background-repeat:  no-repeat;
+                background-attachment: fixed;
+                background-size:  cover;
+                background-color: #23262F;
+                }
+              
+              
+
+              .input.is-rounded {
+                border-radius: 9999px;
+                padding-left: calc(calc(0.75em - 1px) + 0.375em);
+                padding-right: calc(calc(0.75em - 1px) + 0.375em);
+              }
+
+              .input.is-rounded.is-renai {
+                background-color: #3c3c3c;
+                               color: whitesmoke;
+                border-color: #3c3c3c;;               
+              }
+
+              .select.is-rounded {
+                border-radius: 9999px;
+                padding-left: calc(calc(0.75em - 1px) + 0.375em);
+                padding-right: calc(calc(0.75em - 1px) + 0.375em);
+              }
+
+              .select.is-rounded.is-renai {
+                display: block;
+                background-color: #3c3c3c;
+                               color: whitesmoke;
+                border-color: #3c3c3c;;               
+              }
+              
+              .textarea.is-renai {
+                background-color: #3c3c3c;
+                border-radius: 15px;
+                border-color: #3c3c3c;
+                color: whitesmoke;
+              }
+
+              p.is-youtube {
+                color : crimson;
+              }
+
+              p.is-white {
+                color : whitesmoke;
+              }
+
+              
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,360 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 8px 8px 8px 17px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 12px;
+  margin-top: 0px;
+}
+.logobutton {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  padding: 0px;
+  border-width: 0px;
+  border-style: none;
+}
+.logobutton > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: calc(0px - 14px);
+  width: calc(100% + 14px);
+}
+.logobutton > :global(.__wab_flex-container) > *,
+.logobutton > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.logobutton > :global(.__wab_flex-container) > picture > img,
+.logobutton
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 14px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 50px;
+  height: 50px;
+  color: #d4b801;
+  flex-shrink: 0;
+}
+.text {
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: Gelion;
+  font-size: 29px;
+  font-weight: 600;
+  align-self: center;
+}
+.profilebutton2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  max-width: 100%;
+  background: url("./images/image15.png") top 50% left 50% / cover repeat, #787878;
+  flex-shrink: 0;
+  border-radius: 37px;
+  padding: 8px;
+  border-width: 1px;
+  border-style: none;
+}
+.freeBox__wNdZu {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox__wNdZu > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.freeBoxloggedin__wNdZuChSJa {
+  width: auto;
+  display: flex;
+}
+.freeBoxloggedin__wNdZuChSJa > :global(.__wab_flex-container) {
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: calc(0px - 29px);
+  width: calc(100% + 29px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.freeBoxloggedin__wNdZuChSJa > :global(.__wab_flex-container) > *,
+.freeBoxloggedin__wNdZuChSJa
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.freeBoxloggedin__wNdZuChSJa > :global(.__wab_flex-container) > picture > img,
+.freeBoxloggedin__wNdZuChSJa
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 29px;
+  margin-top: 0px;
+}
+.freeBox__xTeE {
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: none;
+  padding: 8px;
+}
+.freeBox__xTeE > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: calc(0px - 44px);
+  width: calc(100% + 44px);
+}
+.freeBox__xTeE > :global(.__wab_flex-container) > *,
+.freeBox__xTeE > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__xTeE > :global(.__wab_flex-container) > picture > img,
+.freeBox__xTeE
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 44px;
+}
+@media (min-width: 1024px) {
+  .freeBox__xTeE {
+    display: none;
+  }
+}
+.freeBoxloggedin__xTeEChSJa {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .freeBoxloggedin__xTeEChSJa {
+    display: flex;
+  }
+}
+.dtleaderboardbutton {
+  position: relative;
+  width: 120px;
+  height: auto;
+  max-width: 120px;
+  font-family: Gelion;
+  color: #ffffff;
+  text-align: center;
+  flex-shrink: 0;
+  border-width: 0px;
+  border-style: none;
+}
+@media (min-width: 1024px) {
+  .rootloggedin .dtleaderboardbuttonloggedin:hover {
+    width: 120px;
+    height: auto;
+    max-width: 120px;
+    font-family: Gelion;
+    color: #ffffff;
+    text-align: center;
+    background: #182a45;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 4px 12px;
+    border-width: 0px;
+    border-style: none;
+  }
+}
+.dtsocialfeedbutton {
+  position: relative;
+  width: 120px;
+  height: auto;
+  max-width: 120px;
+  font-family: Gelion;
+  color: #ffffff;
+  text-align: center;
+  flex-shrink: 0;
+  border-width: 0px;
+  border-style: none;
+}
+@media (min-width: 1024px) {
+  .rootloggedin .dtsocialfeedbuttonloggedin:hover {
+    width: 120px;
+    height: auto;
+    max-width: 120px;
+    font-family: Gelion;
+    color: #ffffff;
+    text-align: center;
+    background: #182a45;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 4px 12px;
+    border-width: 0px;
+    border-style: none;
+  }
+}
+.dtportfoliobutton {
+  position: relative;
+  width: 120px;
+  height: auto;
+  max-width: 120px;
+  font-family: Gelion;
+  color: #ffffff;
+  text-align: center;
+  flex-shrink: 0;
+  border-width: 0px;
+  border-style: none;
+}
+@media (min-width: 1024px) {
+  .rootloggedin .dtportfoliobuttonloggedin:hover {
+    width: 120px;
+    height: auto;
+    max-width: 120px;
+    font-family: Gelion;
+    color: #ffffff;
+    text-align: center;
+    background: #182a45;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 4px 12px;
+    border-width: 0px;
+    border-style: none;
+  }
+}
+.dttransactionsbutton {
+  position: relative;
+  width: 120px;
+  height: auto;
+  max-width: 120px;
+  font-family: Gelion;
+  color: #ffffff;
+  text-align: center;
+  flex-shrink: 0;
+  border-width: 0px;
+  border-style: none;
+}
+@media (min-width: 1024px) {
+  .rootloggedin .dttransactionsbuttonloggedin:hover {
+    background: #182a45;
+    text-align: center;
+    width: 120px;
+    max-width: 120px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 4px 12px;
+  }
+}
+.dtproposalsbutton {
+  position: relative;
+  width: 120px;
+  height: auto;
+  max-width: 120px;
+  font-family: Gelion;
+  color: #ffffff;
+  text-align: center;
+  flex-shrink: 0;
+  border-width: 0px;
+  border-style: none;
+}
+@media (min-width: 1024px) {
+  .rootloggedin .dtproposalsbuttonloggedin:hover {
+    background: #182a45;
+    width: 120px;
+    height: auto;
+    max-width: 120px;
+    font-family: Gelion;
+    color: #ffffff;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 4px 12px;
+    border-width: 0px;
+    border-style: none;
+  }
+}
+.signupbutton:global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.signupbuttonloggedin:global(.__wab_instance) {
+  display: none;
+}
+.svg__jAZoP {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__gS4Bd {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.profilebutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  max-width: 100%;
+  background: none;
+  flex-shrink: 0;
+  border-radius: 37px;
+  padding: 8px;
+  border-width: 1px;
+  border-style: none;
+}
+.profilebuttonloggedin {
+  display: flex;
+}
+.freeBox__prRXn {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  padding: 0px;
+}
+.freeBoxloggedin__prRXnChSJa {
+  display: flex;
+}

@@ -1,0 +1,128 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #ffffff;
+  position: relative;
+  border-radius: 0px;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 0px;
+}
+.navbutton___2TZp:global(.__wab_instance) {
+  position: relative;
+  height: 79px;
+}
+.img__f4FKr {
+  position: relative;
+  object-fit: cover;
+  max-width: 47px;
+  width: 47px;
+  height: 47px;
+  max-height: 47px;
+  min-height: 47px;
+}
+.img__f4FKr > picture > img {
+  object-fit: cover;
+}
+.img__f4FKr > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.navbutton__kcfz5:global(.__wab_instance) {
+  position: relative;
+  height: 79px;
+}
+.img__sCyQq {
+  position: relative;
+  object-fit: cover;
+  max-width: 47px;
+  width: 47px;
+  height: 47px;
+  max-height: 47px;
+  min-height: 47px;
+}
+.img__sCyQq > picture > img {
+  object-fit: cover;
+}
+.img__sCyQq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.text__gMyPp {
+  padding-left: 0px;
+}
+.navbutton__pDkyb:global(.__wab_instance) {
+  position: relative;
+  height: 79px;
+}
+.img__fut70 {
+  position: relative;
+  object-fit: cover;
+  max-width: 47px;
+  width: 47px;
+  height: 47px;
+  max-height: 47px;
+  min-height: 47px;
+}
+.img__fut70 > picture > img {
+  object-fit: cover;
+}
+.img__fut70 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.text__roixf {
+  padding-left: 0px;
+}
+.navbutton__aBCz4:global(.__wab_instance) {
+  position: relative;
+  height: 79px;
+}
+.img__w9CS {
+  position: relative;
+  object-fit: cover;
+  max-width: 47px;
+  width: 47px;
+  height: 47px;
+  max-height: 47px;
+  min-height: 47px;
+}
+.img__w9CS > picture > img {
+  object-fit: cover;
+}
+.img__w9CS > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.navbutton__doUpq:global(.__wab_instance) {
+  position: relative;
+  height: 79px;
+}
+.img__hN5An {
+  position: relative;
+  object-fit: cover;
+  max-width: 47px;
+  width: 47px;
+  height: 47px;
+  max-height: 47px;
+  min-height: 47px;
+}
+.img__hN5An > picture > img {
+  object-fit: cover;
+}
+.img__hN5An > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.text__cyGj4 {
+  width: auto;
+}

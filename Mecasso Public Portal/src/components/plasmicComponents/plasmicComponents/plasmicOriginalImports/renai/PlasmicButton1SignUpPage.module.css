@@ -1,0 +1,56 @@
+.root {
+  flex-direction: row;
+  width: 307px;
+  height: 51px;
+  display: flex;
+  background: linear-gradient(0deg, #3d68ae5e 0%, #3d68ae69 100%);
+  position: relative;
+  backdrop-filter: none;
+  box-shadow: none;
+  border-radius: 43px;
+  border-width: 0px;
+  border-style: none;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.root:active {
+  background: linear-gradient(
+    0deg,
+    #23262f17 0%,
+    #23262f54 32%,
+    #23262fad 100%
+  );
+}
+.svg__vwOm6 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: block;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.slotTargetChildren {
+  font-family: Gelion;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0em;
+}

@@ -1,0 +1,276 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  width: 421px;
+  height: auto;
+  max-width: 100%;
+  background: #d7d7d7;
+  position: relative;
+  border-radius: 8px;
+  padding: 16px 8px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 7px);
+  width: calc(100% + 7px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 7px;
+}
+@media (min-width: 1024px) {
+  .root {
+    width: 495px;
+  }
+}
+.freeBox__oGCmq {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__oGCmq > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__oGCmq > :global(.__wab_flex-container) > *,
+.freeBox__oGCmq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__oGCmq > :global(.__wab_flex-container) > picture > img,
+.freeBox__oGCmq
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.freeBox__plPer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+}
+.img___8Cpoo {
+  object-fit: cover;
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 25px;
+}
+.img___8Cpoo > picture > img {
+  object-fit: cover;
+}
+.img___8Cpoo > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__rPmzc {
+  flex-direction: column;
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+}
+.freeBox__rPmzc > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.freeBox__rPmzc > :global(.__wab_flex-container) > *,
+.freeBox__rPmzc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__rPmzc > :global(.__wab_flex-container) > picture > img,
+.freeBox__rPmzc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 2px;
+}
+.freeBox__ohwyl {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  background: #d0d0d0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  padding: 2px 4px;
+}
+.slotTargetTokensymbol {
+  font-family: Gelion;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.07;
+}
+.freeBox__azMsf {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetTokenname {
+  font-family: Gelion;
+  font-size: 22px;
+  color: #000000;
+  line-height: 1;
+}
+.freeBox__vb4Mm {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-right: 6px;
+  padding: 0px;
+}
+.freeBox__vb4Mm > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.freeBox__vb4Mm > :global(.__wab_flex-container) > *,
+.freeBox__vb4Mm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__vb4Mm > :global(.__wab_flex-container) > picture > img,
+.freeBox__vb4Mm
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.buybutton {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 66px;
+  max-width: 100%;
+  background: #000000;
+  flex-shrink: 0;
+  border-radius: 8px;
+  padding: 11px 0px;
+  border-width: 0px;
+  border-style: none;
+}
+.text__dn8Ws {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  align-self: center;
+  font-size: 12px;
+  min-width: 0;
+}
+.sendbutton {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 66px;
+  max-width: 100%;
+  background: #000000;
+  flex-shrink: 0;
+  border-radius: 8px;
+  padding: 11px 0px;
+  border-width: 0px;
+  border-style: none;
+}
+.text___7Ivuy {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  align-self: center;
+  font-size: 12px;
+  min-width: 0;
+}
+.freeBox___994Ux {
+  flex-direction: column;
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-left: calc(0px + 7px) !important;
+  margin-right: 12px;
+  padding: 0px;
+}
+.freeBox___994Ux > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.freeBox___994Ux > :global(.__wab_flex-container) > *,
+.freeBox___994Ux > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___994Ux > :global(.__wab_flex-container) > picture > img,
+.freeBox___994Ux
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 2px;
+}
+.text__so0H4 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  font-size: 12px;
+  color: #000000;
+  line-height: 0.79;
+  background: none;
+  font-family: Gelion;
+  align-self: flex-end;
+  border-radius: 7px;
+  padding: 0px;
+}
+.freeBox__axNV {
+  position: relative;
+  width: 78px;
+  height: auto;
+  max-width: 78px;
+  display: flex;
+  flex-direction: row;
+  min-width: 78px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.slotTargetTokenbalance {
+  font-family: Gelion;
+  font-size: 23px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 0.76;
+  text-align: right;
+}

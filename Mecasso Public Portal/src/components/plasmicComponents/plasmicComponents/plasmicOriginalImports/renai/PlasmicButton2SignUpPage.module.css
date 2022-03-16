@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  max-width: 100%;
+  background: linear-gradient(0deg, #3d68ae4f 0%, #3d68ae78 100%);
+  position: relative;
+  border-radius: 121px;
+  padding: 0px;
+  border: 1px none #3d68ae;
+}
+.root:active {
+  background: linear-gradient(0deg, #23262f54 0%, #23262fad 100%);
+}
+.svg__zdknl {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 37px;
+  height: 37px;
+  display: block;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+}

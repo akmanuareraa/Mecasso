@@ -1,0 +1,26 @@
+.root {
+  width: 92px;
+  height: auto;
+  max-width: 800px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: none;
+}
+.rootselected {
+  background: #d4b801;
+  justify-content: center;
+  border-radius: 78px;
+}
+.slotTargetChildren {
+  font-family: Gelion;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.slotTargetChildrenselected {
+  text-align: center;
+  color: #000000;
+}

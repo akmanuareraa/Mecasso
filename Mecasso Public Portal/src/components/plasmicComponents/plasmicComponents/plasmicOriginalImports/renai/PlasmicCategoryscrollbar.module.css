@@ -1,0 +1,179 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  height: 42px;
+  width: 355px;
+  overflow: auto;
+  position: relative;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  margin-left: calc(0px - 36px);
+  width: calc(100% + 36px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 36px;
+}
+@media (min-width: 1024px) {
+  .root > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.toptenbutton:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+@media (min-width: 1024px) {
+  .toptenbutton:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.toptenbuttoncreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.toptenbuttoncreator:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.toptenbuttoncreatorcreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.influencers:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.influencerscreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.blogger:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.bloggercreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.celebrity:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.celebritycreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.youngstars:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.youngstarscreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.comets:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.cometscreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.art:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.artloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.artcreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.text {
+  display: none;
+}
+.music:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.musicloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.musiccreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.dance:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.danceloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.dancecreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.sports:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.sportsloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.sportscreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.gaming:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.gamingloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.gamingcreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.skits:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.skitsloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.skitscreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.cooking:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+  display: flex;
+}
+.cookingloggedin:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.cookingcreatormode:global(.__wab_instance) {
+  flex-shrink: 0;
+}

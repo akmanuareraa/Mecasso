@@ -1,0 +1,15 @@
+.root {
+  width: 294px;
+  height: auto;
+  max-width: 100%;
+  color: #000000;
+  font-family: Gelion;
+  text-align: center;
+  position: relative;
+  border: 0px none #ed0c0c;
+}
+.root___focused__pressed__hover__focusVisible__notDisabled:focus:active:hover:not(:disabled) {
+  outline: none;
+  border-width: 0px;
+  border-style: none;
+}

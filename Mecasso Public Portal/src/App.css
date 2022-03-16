@@ -1,0 +1,68 @@
+.bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+.bg-box {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+.bg-img.public {
+  /* border-color: #172741; */
+  border-style: solid;
+  border-color: #172741;
+  border-width: thin;
+}
+
+.is-fixed-width {
+  background-color: #3f3f3f;
+  width: 150px;
+}
+
+.is-black-background {
+  background-color: black;
+}
+
+.has-rounded-corners {
+  border-radius: 25px;
+}
+
+.button.is-renai {
+  background-color: #172741;
+  border-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+.button.is-renai:hover,
+.button.is-renai.is-hovered {
+  background-color: #172741;
+  border-color: transparent;
+}
+
+.file-cta.is-renai {
+    background-color: #172741;
+    border-radius: 20px;
+    width: 381px;
+    height: 56px;
+    color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Gelion;
+}
+
+.file-label:hover{
+    background-color: transparent;
+}
+
+.file-label:active {
+    background-color: transparent;
+}

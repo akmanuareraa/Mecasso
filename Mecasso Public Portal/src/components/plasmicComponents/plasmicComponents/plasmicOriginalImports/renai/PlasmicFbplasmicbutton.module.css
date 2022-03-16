@@ -1,0 +1,15 @@
+.root:global(.__wab_instance) {
+  position: relative;
+}
+.svg__pNq6G {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 37px;
+  height: 37px;
+  display: block;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+}

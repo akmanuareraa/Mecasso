@@ -1,0 +1,29 @@
+.root {
+  width: 100%;
+  height: auto;
+  max-width: 335px;
+  background: #00ff6159;
+  padding-top: 0px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  min-width: 0;
+  border-radius: 39px;
+}
+.rootphoneverification {
+  display: none;
+}
+.rootemailverification {
+  display: none;
+}
+.rootmobileotpsuccess {
+  display: none;
+}
+.slotTargetErrormessage {
+  font-family: Gelion;
+  font-size: 18px;
+  color: #00ff61;
+  text-align: center;
+}

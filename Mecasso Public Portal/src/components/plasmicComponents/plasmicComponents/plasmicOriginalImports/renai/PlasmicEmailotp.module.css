@@ -1,0 +1,295 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: 321px;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(0deg, #23262f5e 0%, #23262fa3 100%);
+  position: relative;
+  border-radius: 34px;
+  padding: 20px 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 35px);
+  height: calc(100% + 35px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 35px;
+}
+.rootfotpverification {
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.rootphoneverificationsuccess {
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+.rootemailverification {
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+.rootmobileotpsuccess {
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.rootemailotpsuccess {
+  height: auto;
+  width: auto;
+  max-width: none;
+  display: inline-flex;
+  padding: 20px;
+}
+.firstname2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 281px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.firstname2fotpverification:global(.__wab_instance) {
+  display: none;
+}
+.firstname2phoneverificationsuccess:global(.__wab_instance) {
+  display: none;
+}
+.firstname2emailverification:global(.__wab_instance) {
+  display: none;
+}
+.firstname2mobileotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.firstname2emailotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.svg__j02Tj {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___5PVqz {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.lastname2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 281px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.lastname2fotpverification:global(.__wab_instance) {
+  display: none;
+}
+.lastname2phoneverificationsuccess:global(.__wab_instance) {
+  display: none;
+}
+.lastname2emailverification:global(.__wab_instance) {
+  display: none;
+}
+.lastname2mobileotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.lastname2emailotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.svg___6WmNz {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__oL0Yh {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.username2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 281px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.username2fotpverification:global(.__wab_instance) {
+  display: none;
+}
+.username2phoneverificationsuccess:global(.__wab_instance) {
+  display: none;
+}
+.username2emailverification:global(.__wab_instance) {
+  display: none;
+}
+.username2mobileotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.username2emailotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.svg__lh9H {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___5Nm5X {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.email2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 281px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.email2fotpverification:global(.__wab_instance) {
+  display: none;
+}
+.email2phoneverificationsuccess:global(.__wab_instance) {
+  display: none;
+}
+.email2emailverification:global(.__wab_instance) {
+  display: none;
+}
+.email2mobileotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.email2emailotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.svg___5Eb96 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__utrUx {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.phonenumber2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 281px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.phonenumber2fotpverification:global(.__wab_instance) {
+  display: none;
+}
+.phonenumber2phoneverificationsuccess:global(.__wab_instance) {
+  display: none;
+}
+.phonenumber2emailverification:global(.__wab_instance) {
+  display: none;
+}
+.phonenumber2mobileotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.phonenumber2emailotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.svg__dhQ8R {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__d8Xpc {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__jBtkr {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 289px;
+  text-align: center;
+  font-family: Gelion;
+  font-size: 15px;
+  min-width: 0;
+  display: none;
+}
+.textfotpverification__jBtkrrpXtG {
+  display: block;
+}
+.textphoneverificationsuccess__jBtkRkgMnl {
+  display: none;
+}
+.textemailverification__jBtkRo54VA {
+  display: none;
+}
+.textmobileotpsuccess__jBtkRgWt5H {
+  display: block;
+}
+.textemailotpsuccess__jBtkRntqmf {
+  display: none;
+}
+.emailotp:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 281px;
+  height: 46px;
+  flex-shrink: 0;
+  display: none;
+}
+.emailotpfotpverification:global(.__wab_instance) {
+  display: flex;
+}
+.emailotpphoneverificationsuccess:global(.__wab_instance) {
+  display: flex;
+}
+.emailotpemailverification:global(.__wab_instance) {
+  display: flex;
+}
+.emailotpmobileotpsuccess:global(.__wab_instance) {
+  display: flex;
+}
+.emailotpemailotpsuccess:global(.__wab_instance) {
+  display: none;
+}
+.svg___3XhNt {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__dqTk6 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.successmessage:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  display: none;
+}
+.successmessageemailotpsuccess:global(.__wab_instance) {
+  display: flex;
+}
+.text__uPSdU {
+  width: 307px;
+}
