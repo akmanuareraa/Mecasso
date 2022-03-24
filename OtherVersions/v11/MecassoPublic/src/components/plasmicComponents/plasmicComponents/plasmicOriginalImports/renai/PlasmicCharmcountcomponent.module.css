@@ -1,0 +1,12 @@
+.root {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+}
+.slotTargetCharmscount {
+  font-family: Gelion;
+  text-align: left;
+}

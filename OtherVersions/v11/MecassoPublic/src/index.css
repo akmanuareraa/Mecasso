@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adding Custom Font */
+@font-face {
+  font-family: "Gelion";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gelion Medium"),
+    url("./fonts/gelion/Gelion Medium.woff") format("woff");
+}
+
+/* To remove the blue highlight in the background when a button is clicked in mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,238 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 16px 0px #00000033;
+  position: relative;
+  min-width: 0;
+  border-radius: 10px;
+  padding: 0px 0px 8px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 11px);
+  height: calc(100% + 11px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 11px;
+}
+.freeBox__dnEaY {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(7px + 11px) !important;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__dnEaY > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 11px);
+  width: calc(100% + 11px);
+}
+.freeBox__dnEaY > :global(.__wab_flex-container) > *,
+.freeBox__dnEaY > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__dnEaY > :global(.__wab_flex-container) > picture > img,
+.freeBox__dnEaY
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 11px;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.text__nie4 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  font-family: Gelion;
+  color: #000000;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+.freeBox__hEnS {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__hEnS > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 59px);
+  width: calc(100% + 59px);
+}
+.freeBox__hEnS > :global(.__wab_flex-container) > *,
+.freeBox__hEnS > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__hEnS > :global(.__wab_flex-container) > picture > img,
+.freeBox__hEnS
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 59px;
+}
+.freeBox__k9Bdb {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox__gMgxw {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetInstausername {
+  font-family: Gelion;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.freeBox__eZwDs {
+  position: relative;
+  width: 100px;
+  height: auto;
+  max-width: 100px;
+  background: #000000;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+.slotTargetInstaacctype {
+  font-family: Gelion;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+.freeBox__r9Lqd {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  border-radius: 8px;
+  padding: 0px;
+}
+.freeBox__bkotw {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetInstafollowercount {
+  font-family: Gelion;
+  font-size: 29px;
+  color: #4e4e4e;
+  text-align: center;
+  line-height: 0.98;
+}
+.text__vn224 {
+  position: relative;
+  width: 100px;
+  height: auto;
+  max-width: 100px;
+  font-size: 16px;
+  font-family: Gelion;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background: #d4b801;
+  text-align: center;
+  color: #000000;
+  border-radius: 20px;
+}
+.freeBox__wadFo {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  border-radius: 8px;
+  padding: 0px;
+}
+.freeBox__wtpLv {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetInstamediacount {
+  font-family: Gelion;
+  font-size: 29px;
+  color: #4e4e4e;
+  text-align: center;
+  line-height: 0.98;
+}
+.text__dlReQ {
+  position: relative;
+  width: 100px;
+  height: auto;
+  max-width: 100px;
+  font-size: 16px;
+  font-family: Gelion;
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background: #d4b801;
+  text-align: center;
+  color: #000000;
+  border-radius: 20px;
+}

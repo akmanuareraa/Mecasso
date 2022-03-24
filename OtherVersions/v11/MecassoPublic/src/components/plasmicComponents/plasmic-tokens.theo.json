@@ -1,0 +1,39 @@
+{
+  "props": [
+    {
+      "name": "Buttons - Signup - BG",
+      "type": "color",
+      "value": "#3D68AE",
+      "category": "color",
+      "meta": {
+        "projectId": "q7hWdoDc5Fm3y1TqrPvEG7",
+        "id": "Swm4_e9ZY"
+      }
+    },
+    {
+      "name": "CardBG",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "q7hWdoDc5Fm3y1TqrPvEG7",
+        "id": "hCU15p0Kt"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "color",
+      "value": "#3D68AEB0",
+      "category": "color",
+      "meta": {
+        "projectId": "q7hWdoDc5Fm3y1TqrPvEG7",
+        "id": "xm7LOEmv0"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

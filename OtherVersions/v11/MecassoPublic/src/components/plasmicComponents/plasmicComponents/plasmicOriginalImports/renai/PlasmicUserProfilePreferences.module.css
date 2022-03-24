@@ -1,0 +1,190 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  background: #000000;
+  min-width: 0;
+  min-height: 0;
+}
+.screenAlert:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 60px;
+  display: none;
+}
+@media (min-width: 1024px) {
+  .screenAlert:global(.__wab_instance) {
+    display: flex;
+  }
+}
+.text {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  font-family: Gelion;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 313px;
+  height: auto;
+  align-self: center;
+  margin-top: 80px;
+}
+.freeBox {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 16px;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.art:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.artcreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.influencers:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.influencerscreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.music:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.musiccreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.blogger:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.bloggercreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.dance:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.dancecreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.celebrity:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.celebritycreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.sports:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.sportscreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.youngstars:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.youngstarscreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.gaming:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.gamingcreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.comets:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.cometscreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.skits:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.skitscreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.food:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.foodcreatorpref:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.submitprefbutton:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 34px;
+  display: none;
+}
+.submitprefbuttoncreatorpref:global(.__wab_instance) {
+  display: flex;
+}
+.svg__oxNq {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___0ZoRq {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.nextprefbutton:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin-top: 38px;
+}
+.nextprefbuttoncreatorpref:global(.__wab_instance) {
+  display: none;
+}
+.svg__wcCzf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___2QJUp {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}

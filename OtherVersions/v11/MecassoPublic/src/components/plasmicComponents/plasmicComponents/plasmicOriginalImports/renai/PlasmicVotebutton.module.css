@@ -1,0 +1,38 @@
+.root {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: linear-gradient(0deg, #3d68ae5e 0%, #3d68ae69 100%) 0% 0% / 100%
+      100% repeat,
+    #000000;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Gelion;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 12px;
+  border-width: 0px;
+  border-style: none;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.rootdisabled {
+  background: linear-gradient(0deg, #3d68ae5e 0%, #3d68ae69 100%) 0% 0% / 100%
+      100% repeat,
+    #00000080;
+  color: #ffffff80;
+}

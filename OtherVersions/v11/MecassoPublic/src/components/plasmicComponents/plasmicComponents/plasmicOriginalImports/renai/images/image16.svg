@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 190 151">
+  <path fill="#E5E5E5" d="M0 0h190v151H0z"/>
+  <path fill="#000" d="M0 0h190v150.887H0z"/>
+  <g fill="#C4C4C4">
+    <rect x="4" y="66.949" width="186" height="18" rx="9"/>
+    <rect width="105.666" height="16.599" rx="8.299" transform="matrix(.71957 -.69442 .47989 .87733 0 73.376)"/>
+    <rect width="105.666" height="16.599" rx="8.299" transform="matrix(.71957 .69442 -.47989 .87733 7.965 62.949)"/>
+  </g>
+</svg>
