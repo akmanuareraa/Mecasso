@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_renai.module.css"; // plasmic-import: q7hWdoDc5Fm3y1TqrPvEG7/projectcss
@@ -45,6 +45,80 @@ export const PlasmicSocialfeedcard__ArgProps = new Array(
 
 function PlasmicSocialfeedcard__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+
+  const [likes, setLikes] = useState({
+    [args.postid]: [args.charmscount],
+  });
+
+  const timeConv = (timestamp) => {
+    //let time = new Date(timestamp.t*1000);
+    let time = new Date(timestamp);
+    //console.log(time, "time");
+    let formattedTime = time.toString().slice(4, 21);
+    return formattedTime;
+  };
+
+  const addCharm = (dao, tokenName, publisheddatetime, postId, type) => {
+    console.log(
+      "user charm balance",
+      props.overrides.root.props.mainState.charmBalance
+    );
+    if (props.overrides.root.props.mainState.charmBalance !== 0) {
+      console.log("calling charm backend");
+      axios
+        .post(config.backendServer + "/mintCharm", { receiver: dao })
+        .then(function (response, error) {
+          if (response) {
+            console.log(response);
+            let params = {
+              contract: dao,
+              tokenName: tokenName,
+              publisheddatetime: publisheddatetime,
+              transactionDate: Math.floor(Date.now() / 1000),
+              postid: postId,
+            };
+            axios
+              .post(config.backendServer + "/addCharmTransaction", params)
+              .then(function (response, error) {
+                if (response) {
+                  console.log(response);
+                  console.log(
+                    "Charm Added",
+                    "props",
+                    props,
+                    props.overrides.root.props.mainState
+                  );
+                  props.overrides.root.props.mainState.charmBalance =
+                    props.overrides.root.props.mainState.charmBalance - 1;
+                  // props.mainState.charmBalance = props.mainState.charmBalance - 1
+                } else {
+                  console.log(error);
+                }
+              });
+          } else {
+            console.log(error);
+            let charmBalance = props.mainState.charmBalance + 1;
+            props.setMainState((prevState) => {
+              return {
+                ...prevState,
+                charmBalance: charmBalance,
+              };
+            });
+            if (type == 1) {
+              setpostlike((prevState) => {
+                return {
+                  ...prevState,
+                  [postId]: prevState[postId] + 1,
+                };
+              });
+            }
+          }
+        });
+    } else {
+      alert("Zero Charm Balance");
+    }
+  };
+
   return (
     <div
       data-plasmic-name={"root"}
@@ -77,12 +151,12 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                 src: image21RNLgHhObX,
                 fullWidth: 500,
                 fullHeight: 750,
-                aspectRatio: undefined
+                aspectRatio: undefined,
               }}
             />
           ),
 
-          value: args.postpicture
+          value: args.postpicture,
         })}
       </div>
 
@@ -118,12 +192,12 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                           src: image20IYGemhHf2,
                           fullWidth: 387,
                           fullHeight: 581,
-                          aspectRatio: undefined
+                          aspectRatio: undefined,
                         }}
                       />
                     ),
 
-                    value: args.creatorprofilepic
+                    value: args.creatorprofilepic,
                   })}
                 </div>
               ) : null}
@@ -132,7 +206,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                 {p.renderPlasmicSlot({
                   defaultContents: "Ishan Roy",
                   value: args.creatorname,
-                  className: classNames(sty.slotTargetCreatorname)
+                  className: classNames(sty.slotTargetCreatorname),
                 })}
               </div>
             </p.Stack>
@@ -160,7 +234,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                     {p.renderPlasmicSlot({
                       defaultContents: "39",
                       value: args.likescount,
-                      className: classNames(sty.slotTargetLikescount)
+                      className: classNames(sty.slotTargetLikescount),
                     })}
                   </div>
                 </p.Stack>
@@ -173,6 +247,28 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                 >
                   {(hasVariant(variants, "liked", "liked") ? true : true) ? (
                     <button
+                      onClick={() => {
+                        console.log("clicked from component");
+                        console.log(
+                          "clicked from component",
+                          args.charmscount,
+                          args.postid,
+                          likes[args.postid]
+                        );
+                        addCharm(
+                          args.dao,
+                          args.tokenname,
+                          args.timestamp,
+                          args.postid,
+                          1
+                        );
+                        setLikes((prevState) => {
+                          return {
+                            ...prevState,
+                            [args.postid]: parseInt(prevState[args.postid]) + 1,
+                          };
+                        });
+                      }}
                       data-plasmic-name={"charmbutton"}
                       data-plasmic-override={overrides.charmbutton}
                       className={classNames(
@@ -184,7 +280,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                             variants,
                             "liked",
                             "liked"
-                          )
+                          ),
                         }
                       )}
                     >
@@ -199,7 +295,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                             variants,
                             "liked",
                             "liked"
-                          )
+                          ),
                         })}
                         role={"img"}
                       />
@@ -211,7 +307,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                   >
                     {p.renderPlasmicSlot({
                       defaultContents: "20",
-                      value: args.charmscount
+                      value: likes[args.postid],
                     })}
                   </div>
 
@@ -237,7 +333,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                 <div className={classNames(projectcss.all, sty.freeBox__u7Cx)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "0",
-                    value: args.dao
+                    value: args.dao,
                   })}
                 </div>
               ) : null}
@@ -245,7 +341,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                 <div className={classNames(projectcss.all, sty.freeBox__hsJcf)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "0",
-                    value: args.tokenname
+                    value: args.tokenname,
                   })}
                 </div>
               ) : null}
@@ -253,7 +349,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
                 <div className={classNames(projectcss.all, sty.freeBox__zu2AF)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "0",
-                    value: args.postid
+                    value: args.postid,
                   })}
                 </div>
               ) : null}
@@ -268,7 +364,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
               defaultContents:
                 "First post for the followers of Renai Community and Trying to setup a fixed space for the heading",
               value: args.posttitle,
-              className: classNames(sty.slotTargetPosttitle)
+              className: classNames(sty.slotTargetPosttitle),
             })}
           </div>
 
@@ -277,7 +373,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
               defaultContents:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
               value: args.postdescription,
-              className: classNames(sty.slotTargetPostdescription)
+              className: classNames(sty.slotTargetPostdescription),
             })}
           </div>
         </div>
@@ -288,7 +384,7 @@ function PlasmicSocialfeedcard__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Dec 12 2021 21:59",
             value: args.timestamp,
-            className: classNames(sty.slotTargetTimestamp)
+            className: classNames(sty.slotTargetTimestamp),
           })}
         </div>
 
@@ -334,14 +430,14 @@ const PlasmicDescendants = {
     "charmbutton",
     "sharebutton",
     "externallinkbutton",
-    "text"
+    "text",
   ],
 
   profilebutton: ["profilebutton"],
   charmbutton: ["charmbutton"],
   sharebutton: ["sharebutton"],
   externallinkbutton: ["externallinkbutton", "text"],
-  text: ["text"]
+  text: ["text"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -350,14 +446,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicSocialfeedcard__ArgProps,
-      internalVariantPropNames: PlasmicSocialfeedcard__VariantProps
+      internalVariantPropNames: PlasmicSocialfeedcard__VariantProps,
     });
 
     return PlasmicSocialfeedcard__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -380,7 +476,7 @@ export const PlasmicSocialfeedcard = Object.assign(
     text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicSocialfeedcard
     internalVariantProps: PlasmicSocialfeedcard__VariantProps,
-    internalArgProps: PlasmicSocialfeedcard__ArgProps
+    internalArgProps: PlasmicSocialfeedcard__ArgProps,
   }
 );
 
